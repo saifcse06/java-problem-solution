@@ -9,3 +9,4 @@ Java Problem And Solution Simple
     4) Java Code to find whether a number Armstrong or not? 
     5) Java Program to generate Fibonacci series?
     6) Write a program in java to reverse a number?  
+    7) Longest Common Prefix find from array.
