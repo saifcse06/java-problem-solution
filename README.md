@@ -10,3 +10,10 @@ Java Problem And Solution Simple
     5) Java Program to generate Fibonacci series?
     6) Write a program in java to reverse a number?  
     7) Longest Common Prefix find from array.
+
+## Java MIU Partice And Solution
+    https://raw.githubusercontent.com/DawitGirma/MaharishiEntranceExam/main/practise%20questions.pdf
+
+    # Findout MyJavaPartice Claas
+
+    

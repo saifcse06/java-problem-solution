@@ -1,6 +1,6 @@
 public class LeetcodeSolutions {
     /*
-    14. Longest Common Prefix
+    * 14. Longest Common Prefix
     */
     public static String  longestCommonPrefix(String [] strs) {
         String longestString = strs[0];
