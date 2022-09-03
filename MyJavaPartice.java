@@ -31,8 +31,21 @@ public class MyJavaPartice {
         return sumResult == originalNumber ? 1 : 0;
     }
 
+    /*
+     * isSequencedArray
+     */
+    public static int isSequencedArray(int [] arr) {
+        int isSequence = 0;
+        if (arr.length<0) {
+            return 0;
+        }
+
+
+        return isSequence;
+    }
     public static void main(String[] args) {
         // System.out.println(largestAdjacentSum(new int [] {1,1,1,1,1,2,1,1,1}));
-        System.out.println(checkConcatenatedSum(198, 2));
+       //  System.out.println(checkConcatenatedSum(198, 2));
+       System.out.println(isSequencedArray(new int [] {1, 2, 3, 4, 5}));
     }
 }
