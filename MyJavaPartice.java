@@ -43,9 +43,49 @@ public class MyJavaPartice {
 
         return isSequence;
     }
+
+    public static int[] arrayCommon(int [] first,int [] seceond){
+        if (first == null || seceond == null) {
+            return null;
+        }
+        if (first.length == 0 || seceond.length == 0) {
+            return new int[0];
+        }
+        int mini = (first.length<seceond.length) ? first.length : seceond.length;
+        int [] a,b;
+        if (first.length == mini) {
+            a = first;
+            b = seceond;
+        }else{
+            a= seceond;
+            b = first;
+        }
+
+        int [] c = new int[mini];
+        int k = 0;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < b.length; j++) {
+                if (a[i] == b[j]) {
+                    c[i] = a[i];
+                    k++;
+                }
+            }            
+        }
+        int[] arrayReturn = new int[k];
+        for (int t = 0; t < arrayReturn.length; t++) {
+            arrayReturn[t] = c[t]; 
+        }
+
+        return arrayReturn;
+    }
+
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // System.out.println(largestAdjacentSum(new int [] {1,1,1,1,1,2,1,1,1}));
        //  System.out.println(checkConcatenatedSum(198, 2));
-       System.out.println(isSequencedArray(new int [] {1, 2, 3, 4, 5}));
+       //System.out.println(isSequencedArray(new int [] {1, 2, 3, 4, 5}));
+       System.out.println(arrayCommon(new int[] {1, 8, 3, 2}, new int[] {4, 2, 6, 1}));
     }
 }
