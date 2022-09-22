@@ -34,14 +34,28 @@ public class MyJavaPartice {
     /*
      * isSequencedArray
      */
-    public static int isSequencedArray(int [] arr) {
-        int isSequence = 0;
-        if (arr.length<0) {
-            return 0;
+    public static int isSequencedArray(int[] a, int m, int n) {
+        if (a.length <= 1 || a[0] != m || a[a.length - 1] != n || m > n)
+        return 0;
+
+    for (int i = m; i <= n; i++) {
+        boolean flag = false;
+
+        for (int j = 1; j <= a.length - 1; j++) {
+            if (a[j - 1] > a[j]) {
+                return 0;
+            }
+
+            if (a[j - 1] == i || a[j] == i) {
+                flag = true;
+                break;
+            }
         }
+        if (!flag)
+            return 0;
+    }
 
-
-        return isSequence;
+    return 1;
     }
 
     public static int[] arrayCommon(int [] first,int [] seceond){

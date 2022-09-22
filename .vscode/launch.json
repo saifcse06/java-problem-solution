@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RepsEqual",
+            "request": "launch",
+            "mainClass": "RepsEqual",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch StantonMeasure",
+            "request": "launch",
+            "mainClass": "StantonMeasure",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectSquare",
+            "request": "launch",
+            "mainClass": "PerfectSquare",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuthrieIndex",
+            "request": "launch",
+            "mainClass": "GuthrieIndex",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumFactor",
+            "request": "launch",
+            "mainClass": "SumFactor",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairedNArray",
+            "request": "launch",
+            "mainClass": "PairedNArray",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Madhav",
+            "request": "launch",
+            "mainClass": "Madhav",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeCount",
+            "request": "launch",
+            "mainClass": "PrimeCount",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch computeHMS",
+            "request": "launch",
+            "mainClass": "computeHMS",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneToOneArray",
+            "request": "launch",
+            "mainClass": "OneToOneArray",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecodeArray",
+            "request": "launch",
+            "mainClass": "DecodeArray",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch CubePowerful",
+            "request": "launch",
+            "mainClass": "CubePowerful",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
             "name": "Launch MiuSolution",
             "request": "launch",
             "mainClass": "MiuSolution",

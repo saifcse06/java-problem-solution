@@ -17,19 +17,39 @@ public class MiuSolution {
         // System.out.println(allpossibilities(new int[]{0} ));
         // System.out.println(allpossibilities(new int[]{} ));
 
-        int result = primeCount(10, 30);
+        // int result = primeCount(10, 30);
+		// System.out.println(result);
+		// result = primeCount(11, 29);
+		// System.out.println(result);
+		// result = primeCount(20, 22);
+		// System.out.println(result);
+		// result = primeCount(1, 1);
+		// System.out.println(result);
+		// result = primeCount(5, 5);
+		// System.out.println(result);
+		// result = primeCount(6, 2);
+		// System.out.println(result);
+		// result = primeCount(-10, 6); 
+		// System.out.println(result);
+
+
+        int result = isInertial(new int[]{1});
 		System.out.println(result);
-		result = primeCount(11, 29);
+		result = isInertial(new int[]{2});
 		System.out.println(result);
-		result = primeCount(20, 22);
+		result = isInertial(new int[]{1, 2, 3, 4});
 		System.out.println(result);
-		result = primeCount(1, 1);
+		result = isInertial(new int[]{1, 1, 1, 1, 1, 1, 2});
 		System.out.println(result);
-		result = primeCount(5, 5);
+		result = isInertial(new int[]{2, 12, 4, 6, 8, 11});
 		System.out.println(result);
-		result = primeCount(6, 2);
+		result = isInertial(new int[]{2, 12, 12, 4, 6, 8, 11});
 		System.out.println(result);
-		result = primeCount(-10, 6); 
+		result = isInertial(new int[]{-2, -4, -6, -8, -11});
+		System.out.println(result);
+		result = isInertial(new int[]{2, 3, 5, 7});
+		System.out.println(result);
+		result = isInertial(new int[]{2, 4, 6, 8, 10});
 		System.out.println(result);
         
     }
@@ -99,5 +119,48 @@ public class MiuSolution {
 		}
 		return primeCount;
 	}
-
+    static int isInertial(int[] a){
+		int isInertial = 0;
+		boolean containsOddValue = false;
+		int maxValue = Integer.MIN_VALUE;
+		int[] oddValues = new int[a.length];
+		int[] evenValues = new int[a.length];
+		int oddValuesIndex = 0;
+		int evenValuesIndex = 0;
+		for(int index = 0; index < a.length; index++){
+			if((a[index] % 2) != 0){
+				containsOddValue = true;
+				oddValues[oddValuesIndex] = a[index];
+				oddValuesIndex++;
+			}else{
+				evenValues[evenValuesIndex] = a[index];
+				evenValuesIndex++;
+			}
+			if(a[index] > maxValue){
+				maxValue = a[index];
+			}
+		}
+		if(containsOddValue){
+			if(maxValue % 2 == 0){
+				for(int oddIndex = 0; oddIndex < oddValuesIndex; oddIndex++){
+					for(int evenIndex = 0; evenIndex < evenValuesIndex; evenIndex++){
+						if(evenValues[evenIndex] != maxValue){
+							if(oddValues[oddIndex] > evenValues[evenIndex]){
+								isInertial = 1;
+							}else{
+								isInertial = 0;
+								break;
+							}
+						}else{
+							isInertial = 1;
+						}
+					}
+					if(isInertial == 0){
+						break;
+					}
+				}
+			}
+		}
+		return isInertial;
+	}
 }
