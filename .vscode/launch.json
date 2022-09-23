@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SmallestNDigit",
+            "request": "launch",
+            "mainClass": "SmallestNDigit",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch SequentiallyBounded",
+            "request": "launch",
+            "mainClass": "SequentiallyBounded",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrivalentArray",
+            "request": "launch",
+            "mainClass": "TrivalentArray",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackedNumber",
+            "request": "launch",
+            "mainClass": "StackedNumber",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsLegalNumber",
+            "request": "launch",
+            "mainClass": "IsLegalNumber",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsSquare",
+            "request": "launch",
+            "mainClass": "IsSquare",
+            "projectName": "java-problem-solution_1bac26b6"
+        },
+        {
+            "type": "java",
             "name": "Launch RepsEqual",
             "request": "launch",
             "mainClass": "RepsEqual",

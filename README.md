@@ -13,6 +13,7 @@ Java Problem And Solution Simple
 
 ## Java MIU Partice And Solution
     https://raw.githubusercontent.com/DawitGirma/MaharishiEntranceExam/main/practise%20questions.pdf
+    https://raw.githubusercontent.com/njzhenghao/MUM-Entrance-Exam-Solution/master/Sample-MUM-Entrance-Exam.pdf
 
     # Findout MyJavaPartice Claas
 
