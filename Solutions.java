@@ -1,5 +1,8 @@
+import java.lang.reflect.Array;
+
 public class Solutions {
-    static int number1=0,number2=1,number3=0;    
+    static int number1 = 0, number2 = 1, number3 = 0;
+
     /*
      * Q:01
      */
@@ -62,37 +65,51 @@ public class Solutions {
             isArmst = 1;
         return isArmst;
     }
+
     /*
      * Q:05
      */
-    static void Fibonacci(int n) { 
-        if(n>0){     
-            number3 = number1+number2;
-            number1=number2;
-            number2=number3; 
-            System.out.print(" "+number3);   
-            Fibonacci(n-1);
+    static void Fibonacci(int n) {
+        if (n > 0) {
+            number3 = number1 + number2;
+            number1 = number2;
+            number2 = number3;
+            System.out.print(" " + number3);
+            Fibonacci(n - 1);
         }
     }
     /*
      * Q:06
      */
 
-     public static int reverseNumber(int n) {
-        int revNumber=0,remain=0;
-        while (n>=1) {
-            remain = n%10;
-            revNumber = revNumber*10+remain;
-            n = n/10;
+    public static int reverseNumber(int n) {
+        int revNumber = 0, remain = 0;
+        while (n >= 1) {
+            remain = n % 10;
+            revNumber = revNumber * 10 + remain;
+            n = n / 10;
         }
         return revNumber;
-     }
+    }
+
+    static String duplicateString(String[] str) {
+        for (int i = 0; i < str.length - 1; i++) {
+            for (int j = i + 1; j < str.length; j++) {
+                if (str[i].equals(str[j])) {
+                    return str[j];
+                }
+            }
+        }
+        return "";
+    }
+
     public static void main(String[] args) {
+        System.out.println(duplicateString(new String[] { "bcd", "abd", "jude", "bcd", "oiu", "gzw", "oiu" }));
         // System.out.println(checkPrimeNumber(4));
         // System.out.println(Palindrome(131));
         // System.out.println(Factorial(5));
-        //System.out.println(armstrongCheck(135));   
-        //Fibonacci(10);
-        //System.out.println(reverseNumber(123));
+        // System.out.println(armstrongCheck(135));
+        // Fibonacci(10);
+        // System.out.println(reverseNumber(123));
     }
-}      
+}
