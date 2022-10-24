@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 
 public class Solutions {
     static int number1 = 0, number2 = 1, number3 = 0;
