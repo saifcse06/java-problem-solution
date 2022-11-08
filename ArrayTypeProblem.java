@@ -4,7 +4,40 @@ public class ArrayTypeProblem {
         // System.out.println(twoSum(new int[] { 2, 7, 11, 15 }, 9));
         // System.out.println(removeDuplicates(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4
         // }));
-        System.out.println(searchInsert(new int[] { 1, 3, 5, 6 }, 7));
+        // System.out.println(searchInsert(new int[] { 1, 3, 5, 6 }, 7));
+
+        /// System.out.println(largPositiveNumber(new int[] { -1, 10, 6, 7, -7, 1 }));
+
+        System.out.println(plusOne(new int[] { 9 }));
+
+        // int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
+        // System.out.println(numbers.toString());
+
+    }
+
+    static int[] plusOne(int[] digits) {
+        int n = digits.length;
+        for (int i = n - 1; i >= 0; i--) {
+            if (digits[i] < 9) {
+                digits[i]++;
+                return digits;
+            }
+            digits[i] = 0;
+        }
+        int[] newNumber = new int[n + 1];
+        newNumber[0] = 1;
+        return newNumber;
+    }
+
+    static int largPositiveNumber(int[] a) {
+        int result = 0;
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] >= 0 && result < a[i]) {
+                result = a[i];
+            }
+        }
+        return result;
+
     }
 
     static int searchInsert(int[] nums, int target) {
