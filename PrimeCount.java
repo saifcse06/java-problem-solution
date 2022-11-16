@@ -2,7 +2,7 @@ public class PrimeCount {
     public static void main(String[] args) {
         // System.out.println(primeCount(10, 30));
         // System.out.println(isNPrimeable(new int[] {5,15,27}, 3));
-        System.out.println(isHolderNumber(3));
+        System.out.println(isFactorialPrime(3));
     }
 
     static int primeCount(int start, int end) {
@@ -58,7 +58,7 @@ public class PrimeCount {
         if (isPrime(n)) {
             int sum = 0;
             for (int i = 0; i < n && sum < n; i++) {
-                sum += factorial(i) + 1;
+                sum = factorial(i) + 1;
             }
             if (sum == n) {
                 return 1;
