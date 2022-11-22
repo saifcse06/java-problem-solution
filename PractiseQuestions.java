@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class PractiseQuestions {
     public static void main(String[] args) {
         // System.out.println(largestAdjacentSum(new int[] { 1, 1, 1, 1, 1, 2, 1, 1, 1
@@ -63,6 +65,354 @@ public class PractiseQuestions {
         // System.out.println(isHolderNumber(31));
         // System.out.println(isHolderNumber(127));
 
+        // System.out.println(areAnagrams(new char[] { 's', 'i', 't' }, new char[] {
+        // 'i', 't', 's' }));
+        // System.out.println(areAnagrams(new char[]{'s', 'i', 't'}, new char[]{'i',
+        // 'd', 's'}));
+        // System.out.println(areAnagrams(new char[]{'b', 'i', 'g'}, new char[]{'b',
+        // 'i', 't'}));
+        // System.out.println(areAnagrams(new char[]{'b', 'o', 'g'}, new char[]{'b',
+        // 'o', 'o'}));
+        // System.out.println(areAnagrams(new char[]{}, new char[]{}));
+        // System.out.println(areAnagrams(new char[]{'b', 'i', 'g'}, new char[]{'b',
+        // 'i', 'g'}));
+
+        // System.out.println(closestFibonacci(13));
+        // System.out.println(closestFibonacci(12));
+        // System.out.println(closestFibonacci(33));
+        // System.out.println(closestFibonacci(34));
+
+        // System.out.println(isVesuvian(50));
+        // System.out.println(isVesuvian(65));
+        // System.out.println(isVesuvian(85));
+
+        // System.out.println(isOneBalanced(new int[] { 1, 1, 1, 2, 3, -18, 45, 1 }));
+        // System.out.println(isOneBalanced(new int[] { 1, 1, 1, 2, 3, -18, 45, 1, 0
+        // }));
+        // System.out.println(isOneBalanced(new int[] { 1, 1, 2, 3, 1, -18, 26, 1 }));
+        // System.out.println(isOneBalanced(new int[] {}));
+        // System.out.println(isOneBalanced(new int[] { 3, 4, 1, 1 }));
+        // System.out.println(isOneBalanced(new int[] { 1, 1, 3, 4 }));
+        // System.out.println(isOneBalanced(new int[] { 3, 3, 3, 3, 3, 3 }));
+        // System.out.println(isOneBalanced(new int[] { 1, 1, 1, 1, 1, 1 }));
+
+        // System.out.println(isTriangular(1));
+        // System.out.println(isTriangular(3));
+        // System.out.println(isTriangular(4));
+        // System.out.println(isTriangular(6));
+        // System.out.println(isTriangular(10));
+        // System.out.println(isTriangular(11));
+        // System.out.println(isTriangular(12));
+        // System.out.println(isTriangular(13));
+        // System.out.println(isTriangular(14));
+        // System.out.println(isTriangular(15));
+
+        // System.out.println(isMercurial(new int[] { 1, 2, 10, 3, 15, 1, 2, 2 }));
+        // System.out.println(isMercurial(new int[] { 5, 2, 10, 3, 15, 1, 2, 2 }));
+        // System.out.println(isMercurial(new int[] { 1, 2, 10, 3, 15, 16, 2, 2 }));
+        // System.out.println(isMercurial(new int[] { 3, 2, 18, 1, 0, 3, -11, 1, 3 }));
+        // System.out.println(isMercurial(new int[] { 2, 3, 1, 1, 18 }));
+        // System.out.println(isMercurial(new int[] { 8, 2, 1, 1, 18, 3, 5 }));
+        // System.out.println(isMercurial(new int[] { 3, 3, 3, 3, 3, 3 }));
+        // System.out.println(isMercurial(new int[] { 1 }));
+        // System.out.println(isMercurial(new int[] {}));
+
+        // System.out.println(is235Array(new int[] { 2, 3, 5, 7, 11 }));
+        // System.out.println(is235Array(new int[] { 2, 3, 6, 7, 11 }));
+        // System.out.println(is235Array(new int[] { 2, 3, 4, 5, 6, 7, 8, 9, 10 }));
+        // System.out.println(is235Array(new int[] { 2, 4, 8, 16, 32 }));
+        // System.out.println(is235Array(new int[] { 3, 9, 27, 7, 1, 1, 1, 1, 1 }));
+        // System.out.println(is235Array(new int[] { 7, 11, 77, 49 }));
+        // System.out.println(is235Array(new int[] { 2 }));
+        // System.out.println(is235Array(new int[] {}));
+        // System.out.println(is235Array(new int[] { 7, 2, 7, 2, 7, 2, 7, 2, 3, 7, 7
+        // }));
+
+        // System.out.println(Arrays.toString(isComputeHMS(3735)));
+        // System.out.println(Arrays.toString(isComputeHMS(3650)));
+
+        // System.out.println(isMartian(new int[] { 1, 3 }));
+        // System.out.println(isMartian(new int[] { 1, 2, 1, 2, 1, 2, 1, 2, 1 }));
+        // System.out.println(isMartian(new int[] { 1, 3, 2 }));
+        // System.out.println(isMartian(new int[] { 1, 3, 2, 2, 1, 5, 1, 5 }));
+        // System.out.println(isMartian(new int[] { 1, 2, -18, -18, 1, 2 }));
+        // System.out.println(isMartian(new int[] {}));
+        // System.out.println(isMartian(new int[] { 1 }));
+        // System.out.println(isMartian(new int[] { 2 }));
+
+        // System.out.println(isPairedN(new int[] { 1, 4, 1, 4, 5, 6 }, 5));
+        // System.out.println(isPairedN(new int[] { 1, 4, 1, 4, 5, 6 }, 6));
+        // System.out.println(isPairedN(new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8 }, 6));
+        // System.out.println(isPairedN(new int[] { 1, 4, 1 }, 5));
+        // System.out.println(isPairedN(new int[] { 8, 8, 8, 8, 7, 7, 7 }, 15));
+        // System.out.println(isPairedN(new int[] { 8, -8, 8, 8, 7, 7, -7 }, -15));
+        // System.out.println(isPairedN(new int[] { 3 }, 3));
+        // System.out.println(isPairedN(new int[] {}, 0));
+
+        // System.out.println(isNPrimeable(new int[] { 5, 15, 27 }, 2));
+        // System.out.println(isNPrimeable(new int[] { 5, 15, 27 }, 3));
+        // System.out.println(isNPrimeable(new int[] { 5, 15, 26 }, 2));
+        // System.out.println(isNPrimeable(new int[] { 1, 1, 1, 1, 1, 1, 1 }, 4));
+        // System.out.println(isNPrimeable(new int[] {}, 2));
+
+        // System.out.println(is121Array(new int[] { 1, 2, 1 }));
+        // System.out.println(is121Array(new int[] { 1, 1, 2, 2, 2, 1, 1 }));
+        // System.out.println(is121Array(new int[] { 1, 1, 2, 2, 2, 1, 1, 1 }));
+        // System.out.println(is121Array(new int[] { 1, 1, 2, 1, 2, 1, 1 }));
+        // System.out.println(is121Array(new int[] { 1, 1, 1, 2, 2, 2, 1, 1, 1, 3 }));
+        // System.out.println(is121Array(new int[] { 1, 1, 1, 1, 1, 1 }));
+        // System.out.println(is121Array(new int[] { 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 1
+        // }));
+        // System.out.println(is121Array(new int[] { 1, 1, 1, 2, 2, 2, 1, 1, 2, 2 }));
+        // System.out.println(is121Array(new int[] { 2, 2, 2 }));
+
+        System.out.println(Arrays.toString(pairwiseSum(new int[] { 2, 1, 18, -5 })));
+    }
+
+    static int[] pairwiseSum(int[] a) {
+        if (a.length <= 0 && a.length % 2 != 0) {
+            return null;
+        }
+
+        int[] result = new int[a.length / 2];
+
+        for (int index = 0, i = 0; index <= result.length && i < a.length - 1; i = i + 2, index++) {
+            result[index] = a[i] + a[i + 1];
+        }
+
+        return result;
+    }
+
+    static int is121Array(int[] a) {
+        if (a[0] != 1 || a[a.length - 1] != 1)
+            return 0;
+
+        int i, j;
+        boolean flag = false;
+        for (i = 0, j = a.length - 1; i < a.length && j >= 0 && i <= j; i++, j--) {
+            if (a[i] != 1 || a[j] != 1) {
+                if (a[i] != 2 || a[j] != 2)
+                    return 0;
+                else {
+                    flag = true;
+                    break;
+                }
+            }
+        }
+
+        for (int index = i; index <= j; index++) {
+            if (a[index] != 2)
+                return 0;
+        }
+
+        if (flag)
+            return 1;
+        return 0;
+    }
+
+    static int isNPrimeable(int[] a, int n) {
+        for (int i = 0; i < a.length; i++) {
+            if (!isPrime(a[i] + n))
+                return 0;
+        }
+        return 1;
+    }
+
+    static int isPairedN(int[] a, int n) {
+
+        if (a.length <= 1 || n > a.length + 1 || n < 0)
+            return 0;
+
+        for (int i = 0; i < a.length; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i] + a[j] == n && i + j == n) {
+                    return 1;
+                }
+            }
+        }
+        return 0;
+    }
+
+    static int isMartian(int[] a) {
+        int countOf1 = 0;
+        int countOf2 = 0;
+
+        for (int i = 0; i < a.length; i++) {
+            if (i < a.length - 1 && a[i] == a[i + 1]) {
+                return 0;
+            }
+
+            if (a[i] == 1)
+                countOf1++;
+
+            if (a[i] == 2)
+                countOf2++;
+        }
+
+        if (countOf1 > countOf2)
+            return 1;
+        return 0;
+    }
+
+    static int[] isComputeHMS(int seconds) {
+        int[] result = new int[3];
+        int s = seconds / 3600;
+        result[0] = s;
+        int m = (seconds % 3600) / 60;
+        result[1] = m;
+        int h = seconds % 60;
+        result[2] = h;
+        return result;
+    }
+
+    static int is235Array(int[] a) {
+        int divisibleBy2 = 0;
+        int divisibleBy3 = 0;
+        int divisibleBy5 = 0;
+
+        int notDivisible = 0;
+
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] % 2 == 0 || a[i] % 3 == 0 || a[i] % 5 == 0) {
+                if (a[i] % 2 == 0)
+                    divisibleBy2++;
+                if (a[i] % 3 == 0)
+                    divisibleBy3++;
+                if (a[i] % 5 == 0)
+                    divisibleBy5++;
+            } else {
+                notDivisible++;
+            }
+        }
+
+        if (divisibleBy2 + divisibleBy3 + divisibleBy5 + notDivisible == a.length)
+            return 1;
+        return 0;
+    }
+
+    static int isMercurial(int[] a) {
+
+        boolean precedingOneFlag = false;
+
+        int indexOf3 = -1;
+        int indexOf1 = -1;
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == 1)
+                indexOf1 = i;
+
+            if (a[i] == 3) {
+                indexOf3 = i;
+            }
+
+            if (indexOf1 != -1 && indexOf3 > indexOf1)
+                precedingOneFlag = true;
+
+            if (precedingOneFlag && a[i] == 1)
+                return 0;
+        }
+
+        return 1;
+    }
+
+    static int isTriangular(int n) {
+
+        int sum = 0;
+        for (int i = 1; sum < n; i++) {
+            sum += i;
+        }
+        if (sum == n)
+            return 1;
+        return 0;
+    }
+
+    static int isOneBalanced(int[] a) {
+        int total1s = 0;
+        int totalNon1s = 0;
+        boolean non1Start = false;
+        boolean non1End = false;
+        if (a.length == 0)
+            return 1;
+        for (int number : a) {
+            if (number == 1) {
+                if (non1Start)
+                    non1End = true;
+                total1s++;
+            } else {
+                if (non1End)
+                    return 0;
+                non1Start = true;
+                totalNon1s++;
+            }
+        }
+        if (total1s != totalNon1s)
+            return 0;
+        return 1;
+    }
+
+    static int isVesuvian(int n) {
+        int count = 0;
+        for (int i = 1; (i * i) < n; i++) {
+            int sum1 = i * i;
+            for (int j = 1; (j * j) < n; j++) {
+                int sum2 = j * j;
+
+                if (sum1 + sum2 == n) {
+                    count++;
+                    break;
+                }
+            }
+            if (count >= 2)
+                return 1;
+        }
+        return 0;
+    }
+
+    static int closestFibonacci(int n) {
+        int fibonacci = 1;
+        if (n == 1 || n == 2) {
+            fibonacci = 1;
+        }
+        int fibo1 = 1;
+        int fibo2 = 1;
+        for (int i = 3; i <= n; i++) {
+            fibonacci = fibo1 + fibo2; // Fibonacci number is sum of previous two Fibonacci number
+            if (fibonacci > n)
+                return fibo2;
+            fibo1 = fibo2;
+            fibo2 = fibonacci;
+
+        }
+
+        return 0;
+    }
+
+    static int areAnagrams(char[] a1, char[] a2) {
+        if (a1.length != a2.length)
+            return 0;
+
+        char[] a1Copy = new char[a1.length];
+        char[] a2Copy = new char[a2.length];
+
+        for (int i = 0; i < a1.length; i++) {
+            a1Copy[i] = a1[i];
+            a2Copy[i] = a2[i];
+        }
+
+        for (int i = 0; i < a1Copy.length; i++) {
+            for (int j = 0; j < a2Copy.length; j++) {
+                if (a1Copy[i] == a2Copy[j]) {
+                    a1Copy[i] = ' ';
+                    a2Copy[j] = ' ';
+                }
+            }
+        }
+
+        for (int i = 0; i < a1Copy.length; i++) {
+            if (a1Copy[i] != ' ' || a2Copy[i] != ' ')
+                return 0;
+        }
+
+        return 1;
     }
 
     static int isHolderNumber(int n) {
