@@ -166,7 +166,322 @@ public class PractiseQuestions {
         // System.out.println(is121Array(new int[] { 1, 1, 1, 2, 2, 2, 1, 1, 2, 2 }));
         // System.out.println(is121Array(new int[] { 2, 2, 2 }));
 
-        System.out.println(Arrays.toString(pairwiseSum(new int[] { 2, 1, 18, -5 })));
+        // System.out.println(Arrays.toString(pairwiseSum(new int[] { 2, 1, 18, -5 })));
+        // System.out.println(Arrays.toString(pairwiseSum(new int[] { 2, 1, 18, -5, -5,
+        // -15, 0, 0, 1, -1 })));
+        // System.out.println(Arrays.toString(pairwiseSum(new int[] { 2, 1, 18 })));
+        // System.out.println(Arrays.toString(pairwiseSum(new int[] {})));
+
+        // System.out.println(isSquare(4));
+        // System.out.println(isSquare(25));
+        // System.out.println(isSquare(-4));
+        // System.out.println(isSquare(8));
+        // System.out.println(isSquare(0));
+
+        // System.out.println(isComplete1(new int[] { 36, -28 }));
+        // System.out.println(isComplete1(new int[] { 36, 28 }));
+        // System.out.println(isComplete1(new int[] { 4 }));
+        // System.out.println(isComplete1(new int[] { 3, 2, 1, 1, 5, 6 }));
+        // System.out.println(isComplete1(new int[] { 3, 7, 23, 13, 107, -99, 97, 81
+        // }));
+
+        // System.out.println(loopSum(new int[] { 1, 2, 3 }, 2));
+        // System.out.println(loopSum(new int[] { -1, 2, -1 }, 7));
+        // System.out.println(loopSum(new int[] { 1, 4, 5, 6 }, 4));
+        // System.out.println(loopSum(new int[] { 3 }, 10));
+
+        // System.out.println(allValuesTheSame(new int[] { 1, 1, 1, 1 }));
+        // System.out.println(allValuesTheSame(new int[] { 83, 83, 83 }));
+        // System.out.println(allValuesTheSame(new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        // 0 }));
+        // System.out.println(allValuesTheSame(new int[] { 1, -2343456, 1, -2343456 }));
+        // System.out.println(allValuesTheSame(new int[] { 0, 0, 0, 0, -1 }));
+        // System.out.println(allValuesTheSame(new int[] { 432123456 }));
+        // System.out.println(allValuesTheSame(new int[] { -432123456 }));
+        // System.out.println(allValuesTheSame(new int[] {}));
+
+        // System.out.println(hasNValues(new int[] { 1, 2, 2, 1 }, 2));
+        // System.out.println(hasNValues(new int[] { 1, 1, 1, 8, 1, 1, 1, 3, 3 }, 3));
+        // System.out.println(hasNValues(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+        // 10));
+        // System.out.println(hasNValues(new int[] { 1, 2, 2, 1 }, 3));
+        // System.out.println(hasNValues(new int[] { 1, 1, 1, 8, 1, 1, 1, 3, 3 }, 2));
+        // System.out.println(hasNValues(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+        // 20));
+
+        // System.out.println(sameNumberOfFactors(-6, 21));
+        // System.out.println(sameNumberOfFactors(6, 21));
+        // System.out.println(sameNumberOfFactors(8, 12));
+        // System.out.println(sameNumberOfFactors(23, 97));
+        // System.out.println(sameNumberOfFactors(0, 1));
+        // System.out.println(sameNumberOfFactors(0, 0));
+
+        // System.out.println(eval(1.0, new int[] { 0, 1, 2, 3, 4 }));
+        // System.out.println(eval(3.0, new int[] { 3, 2, 1 }));
+        // System.out.println(eval(2.0, new int[] { 3, -2, -1 }));
+        // System.out.println(eval(-3.0, new int[] { 3, 2, 1 }));
+        // System.out.println(eval(2.0, new int[] { 3, 2 }));
+        // System.out.println(eval(2.0, new int[] { 4, 0, 9 }));
+        // System.out.println(eval(2.0, new int[] { 10 }));
+        // System.out.println(eval(10.0, new int[] { 0, 1 }));
+
+        // System.out.println(isAllPossibilities(new int[] { 1, 2, 0, 3 }));
+        // System.out.println(isAllPossibilities(new int[] { 3, 2, 1, 0 }));
+        // System.out.println(isAllPossibilities(new int[] { 1, 2, 4, 3 }));
+        // System.out.println(isAllPossibilities(new int[] { 0, 2, 3 }));
+        // System.out.println(isAllPossibilities(new int[] { 0 }));
+        // System.out.println(isAllPossibilities(new int[] {}));
+
+        // System.out.println(isLayered(new int[] { 1, 1, 2, 2, 2, 3, 3 }));
+        // System.out.println(isLayered(new int[] { 3, 3, 3, 3, 3, 3, 3 }));
+        // System.out.println(isLayered(new int[] { 1, 2, 2, 2, 3, 3 }));
+        // System.out.println(isLayered(new int[] { 2, 2, 2, 3, 3, 1, 1 }));
+        // System.out.println(isLayered(new int[] { 2 }));
+        // System.out.println(isLayered(new int[] {}));
+
+        // int[] d = new int[] { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 };
+        // updateMileageCounter(d, 13);
+
+        // System.out.println(Arrays.toString(d));
+
+        // System.out.println(isHollow(new int[] { 1, 2, 0, 0, 0, 3, 4 }));
+        // System.out.println(isHollow(new int[] { 1, 1, 1, 1, 0, 0, 0, 0, 0, 2, 1, 2,
+        // 18 }));
+        // System.out.println(isHollow(new int[] { 1, 2, 0, 0, 3, 4 }));
+        // System.out.println(isHollow(new int[] { 1, 2, 0, 0, 0, 3, 4, 5 }));
+        // System.out.println(isHollow(new int[] { 3, 8, 3, 0, 0, 0, 3, 3 }));
+        // System.out.println(isHollow(new int[] { 1, 2, 0, 0, 0, 3, 4, 0 }));
+        // System.out.println(isHollow(new int[] { 0, 1, 2, 0, 0, 0, 3, 4 }));
+        // System.out.println(isHollow(new int[] { 0, 0, 0 }));
+
+        System.out.println(isConsecutiveFactored(24));
+        System.out.println(isConsecutiveFactored(105));
+        System.out.println(isConsecutiveFactored(90));
+        System.out.println(isConsecutiveFactored(23));
+        System.out.println(isConsecutiveFactored(15));
+        System.out.println(isConsecutiveFactored(2));
+        System.out.println(isConsecutiveFactored(0));
+        System.out.println(isConsecutiveFactored(-12));
+    }
+
+    static int isConsecutiveFactored(int n) {
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0 && n % (i + 1) == 0)
+                return 1;
+        }
+        return 0;
+    }
+
+    static int isHollow(int[] a) {
+        if (a.length < 3)
+            return 0;
+        int zeroCount = 0;
+
+        for (int i = 0, j = a.length - 1; i <= j; i++, j--) {
+            if ((a[i] == 0 && a[j] != 0) || (a[i] != 0 && a[j] == 0)) {
+                return 0;
+            }
+            if (i == j && a[i] == 0) {
+                zeroCount++;
+            } else {
+                if (a[i] == 0)
+                    zeroCount++;
+
+                if (a[j] == 0)
+                    zeroCount++;
+            }
+        }
+
+        if (zeroCount >= 3)
+            return 1;
+        return 0;
+    }
+
+    static void updateMileageCounter(int[] a, int miles) {
+        for (int i = 0; i < a.length && miles > 0; i++) {
+            miles = a[i] + miles;
+            if (miles > 9) {
+                int tempMiles = miles % 10;
+                miles /= 10;
+                a[i] = tempMiles;
+            } else {
+                a[i] = miles;
+                miles = 0;
+            }
+        }
+    }
+
+    static int isLayered(int[] a) {
+        if (a.length <= 1)
+            return 0;
+
+        int count = 1;
+        for (int i = 0; i < a.length - 1; i++) {
+            if (a[i] > a[i + 1])
+                return 0;
+
+            if (a[i] == a[i + 1])
+                count++;
+
+            if (a[i] != a[i + 1]) {
+                if (count < 2)
+                    return 0;
+                count = 1;
+            }
+        }
+        return 1;
+    }
+
+    static int isAllPossibilities(int[] a) {
+        if (a.length <= 0)
+            return 0;
+
+        for (int i = 0; i < a.length; i++) {
+            boolean flag = false;
+            for (int anA : a) {
+                if (anA == i) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (!flag)
+                return 0;
+        }
+        return 1;
+    }
+
+    static double eval(double x, int[] a) {
+        double sum = 0;
+
+        for (int i = 0; i < a.length; i++) {
+            double product = 1;
+            for (int j = 0; j < i; j++) {
+                product *= x;
+            }
+            sum += a[i] * product;
+        }
+
+        return sum;
+    }
+
+    static int sameNumberOfFactors(int n1, int n2) {
+        if (n1 < 0 || n2 < 0)
+            return -1;
+
+        if (n1 == n2)
+            return 1;
+
+        int countOfFactor1 = 0;
+        int countOfFactor2 = 0;
+
+        for (int i = 1; i <= n1; i++) {
+            if (n1 % i == 0)
+                countOfFactor1++;
+        }
+
+        for (int j = 1; j <= n2; j++) {
+            if (n2 % j == 0)
+                countOfFactor2++;
+        }
+
+        if (countOfFactor1 == countOfFactor2)
+            return 1;
+        return 0;
+    }
+
+    static int hasNValues(int[] a, int n) {
+
+        if (a.length < n)
+            return 0;
+
+        int[] uniqueArray = new int[n];
+        int totalAdded = 0;
+        boolean uniqueFlag;
+
+        for (int anA : a) {
+            uniqueFlag = false;
+            for (int anUnique : uniqueArray) {
+                if (anA == anUnique) {
+                    uniqueFlag = true;
+                    break;
+                }
+            }
+            if (!uniqueFlag) {
+                if (totalAdded >= n)
+                    return 0;
+                uniqueArray[totalAdded] = anA;
+                totalAdded++;
+            }
+        }
+
+        if (totalAdded == n)
+            return 1;
+        return 0;
+    }
+
+    static int allValuesTheSame(int[] a) {
+        if (a.length <= 0)
+            return 0;
+
+        for (int i = 0; i < a.length - 1; i++) {
+            if (a[i] != a[i + 1])
+                return 0;
+        }
+        return 1;
+    }
+
+    static int loopSum(int[] a, int n) {
+        int sum = 0;
+
+        for (int i = 0, index = 0; i < a.length && index < n; i++, index++) {
+            sum += a[i];
+            if (i == a.length - 1 && index != n - 1)
+                i = -1;
+        }
+        return sum;
+    }
+
+    static int isComplete1(int[] a) {
+        boolean squareFlag = false;
+        boolean evenFlag = false;
+        boolean sumFlag = false;
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] % 2 == 0)
+                evenFlag = true;
+
+            if (a[i] != 1 && IsSquare.isSquare(a[i]) == 1)
+                squareFlag = true;
+
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i] + a[j] == 8) {
+                    sumFlag = true;
+                    break;
+                }
+            }
+
+            if (evenFlag && squareFlag && sumFlag)
+                return 1;
+        }
+
+        return 0;
+    }
+
+    static int isSquare(int n) {
+        if (n < 0)
+            return 0;
+
+        int square = 0;
+        int number = 1;
+
+        while (square < n) {
+            square = number * number;
+            number++;
+        }
+
+        if (square == n)
+            return 1;
+
+        return 0;
     }
 
     static int[] pairwiseSum(int[] a) {
