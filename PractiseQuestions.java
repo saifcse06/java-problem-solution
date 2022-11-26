@@ -21,8 +21,9 @@ public class PractiseQuestions {
         // System.out.println(Arrays.toString(encodeNumber(1200)));
         // System.out.println(Arrays.toString(encodeNumber(1)));
         // System.out.println(Arrays.toString(encodeNumber(-18)));
+
         // int[] a = new int[] { 1, 2, 3, 4, 5 };
-        // doIntegerBasedRounding(a, 3);
+        // doIntegerBasedRounding(a, 2);
         // System.out.println(Arrays.toString(a));
 
         // System.out.println(isCubePowerful(-81));
@@ -31,12 +32,12 @@ public class PractiseQuestions {
 
         // System.out.println(isDigitIncreasing(36));
 
-        // System.out.println(isOnionArray(new int[] { 1, 2, 19, 4, 5 }));
-        // System.out.println(isOnionArray(new int[] { 1, 2, 3, 4, 15 }));
-        // System.out.println(isOnionArray(new int[] { 1, 3, 9, 8 }));
-        // System.out.println(isOnionArray(new int[] { 2 }));
-        // System.out.println(isOnionArray(new int[] {}));
-        // System.out.println(isOnionArray(new int[] { -2, 5, 0, 5, 12 }));
+        System.out.println(isOnionArray(new int[] { 1, 2, 19, 4, 5 }));
+        System.out.println(isOnionArray(new int[] { 1, 2, 3, 4, 15 }));
+        System.out.println(isOnionArray(new int[] { 1, 3, 9, 8 }));
+        System.out.println(isOnionArray(new int[] { 2 }));
+        System.out.println(isOnionArray(new int[] {}));
+        System.out.println(isOnionArray(new int[] { -2, 5, 0, 5, 12 }));
 
         // System.out.println(isPrimeHappy(5));
         // System.out.println(isPrimeHappy(25));
@@ -254,14 +255,55 @@ public class PractiseQuestions {
         // System.out.println(isHollow(new int[] { 0, 1, 2, 0, 0, 0, 3, 4 }));
         // System.out.println(isHollow(new int[] { 0, 0, 0 }));
 
-        System.out.println(isConsecutiveFactored(24));
-        System.out.println(isConsecutiveFactored(105));
-        System.out.println(isConsecutiveFactored(90));
-        System.out.println(isConsecutiveFactored(23));
-        System.out.println(isConsecutiveFactored(15));
-        System.out.println(isConsecutiveFactored(2));
-        System.out.println(isConsecutiveFactored(0));
-        System.out.println(isConsecutiveFactored(-12));
+        // System.out.println(isConsecutiveFactored(24));
+        // System.out.println(isConsecutiveFactored(105));
+        // System.out.println(isConsecutiveFactored(90));
+        // System.out.println(isConsecutiveFactored(23));
+        // System.out.println(isConsecutiveFactored(15));
+        // System.out.println(isConsecutiveFactored(2));
+        // System.out.println(isConsecutiveFactored(0));
+        // System.out.println(isConsecutiveFactored(-12));
+
+        // System.out.println(isTwinPrime(5));
+        // System.out.println(isTwinPrime(7));
+        // System.out.println(isTwinPrime(53));
+        // System.out.println(isTwinPrime(9));
+
+        // System.out.println(isZeroBalanced(new int[] { 1, 2, -2, -1 }));
+        // System.out.println(isZeroBalanced(new int[] { -3, 1, 2, -2, -1, 3 }));
+        // System.out.println(isZeroBalanced(new int[] { 3, 4, -2, -3, -2 }));
+        // System.out.println(isZeroBalanced(new int[] { 0, 0, 0, 0, 0, 0 }));
+        // System.out.println(isZeroBalanced(new int[] { 3, -3, -3 }));
+        // System.out.println(isZeroBalanced(new int[] { 3 }));
+        // System.out.println(isZeroBalanced(new int[] {}));
+
+    }
+
+    static int isZeroBalanced(int[] a) {
+        if (a.length <= 1 || a.length % 2 != 0) {
+            return 0;
+        }
+        boolean flag = false;
+        for (int index = 0, j = a.length - 1; index < j; index++, j--) {
+            if (a[index] + a[j] == 0) {
+                flag = true;
+            }
+        }
+        if (flag) {
+            return 1;
+        }
+        return 0;
+    }
+
+    static int isTwinPrime(int n) {
+
+        if (isPrime(n)) {
+            if (isPrime(n + 2) || isPrime(n - 2)) {
+                return 1;
+            }
+        }
+        return 0;
+
     }
 
     static int isConsecutiveFactored(int n) {
@@ -670,7 +712,6 @@ public class PractiseQuestions {
             int sum1 = i * i;
             for (int j = 1; (j * j) < n; j++) {
                 int sum2 = j * j;
-
                 if (sum1 + sum2 == n) {
                     count++;
                     break;
@@ -843,6 +884,18 @@ public class PractiseQuestions {
         if (a.length < 2) {
             return 1;
         }
+        for (int j = 0, k = a.length - 1; j < k; j++, k--) {
+            if (a[j] + a[k] > 10 && j + k == a.length - 1) {
+                return 0;
+            }
+        }
+        return 1;
+    }
+
+    static int isOnionArray1(int[] a) {
+        if (a.length < 2) {
+            return 1;
+        }
         int i = 0;
         int j = a.length - 1;
         while (j > i) {
@@ -932,7 +985,6 @@ public class PractiseQuestions {
 
     static int checkConcatenatedSum(int n, int catlen) {
         int tempN = n, sumResult = 0;
-
         while (tempN > 0) {
             int remain = tempN % 10;
             int catlenSum = 0;
@@ -942,7 +994,6 @@ public class PractiseQuestions {
             sumResult += catlenSum;
             tempN /= 10;
         }
-
         return n == sumResult ? 1 : 0;
     }
 
