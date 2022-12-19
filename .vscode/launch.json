@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HashMapExample",
+            "request": "launch",
+            "mainClass": "HashMap.HashMapExample",
+            "projectName": "java-problem-solution_87dfb718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circle",
+            "request": "launch",
+            "mainClass": "Circle",
+            "projectName": "java-problem-solution_87dfb718"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueExample",
+            "request": "launch",
+            "mainClass": "Queues.QueueExample",
+            "projectName": "java-problem-solution_87dfb718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExampleStack",
+            "request": "launch",
+            "mainClass": "stack.ExampleStack",
+            "projectName": "java-problem-solution_87dfb718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyStack",
+            "request": "launch",
+            "mainClass": "MyStack",
+            "projectName": "java-problem-solution_87dfb718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainCalculation",
+            "request": "launch",
+            "mainClass": "MainCalculation",
+            "projectName": "java-problem-solution_87dfb718"
+        },
+        {
+            "type": "java",
             "name": "Launch SmallestNDigit",
             "request": "launch",
             "mainClass": "SmallestNDigit",
